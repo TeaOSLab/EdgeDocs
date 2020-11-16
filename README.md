@@ -1,2 +1,14 @@
-# EdgeDocs
-GoEdge相关文档
+# GoEdge文档
+* [关于GoEdge](About.md)
+* 管理平台
+  * [安装](Admin/Install.md)
+  * 升级
+  * 网站服务
+  * 边缘节点
+  * 域名解析
+  * 系统设置
+  * 操作日志
+* 边缘节点
+  * [安装](Node/Install.md)
+* API节点
+* 用户平台  
