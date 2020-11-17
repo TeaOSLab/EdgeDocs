@@ -63,10 +63,20 @@
 
 ### 完成安装
 ![完成安装](Install5.png)
-这一步可以确认前面所填写的信息，如果确认无误后，可以点击"确认并开始安装"。
+这一步可以确认前面所填写的信息，如果确认无误后，可以点击"确认并开始安装"，这一步骤需要的时间较长，需要耐心等待几秒钟。
 
 ### 安装完成
 ![安装完成](Install6.png)
 如果安装过程中没有错误产生的话，会出现以上的界面，点击"确定"按钮即可进入登录界面。
 
 如果出现了错误，请截图发给我们，我们会随时帮助你诊断问题所在。
+
+## 常见问题
+### RPC错误
+如果类似于以下的错误：
+~~~
+rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 192.168.2.30:8001: connect: connection refused"
+~~~
+可能的原因呢：
+1. API节点启动失败，请查看 `edge-admin/edge-api/logs/run.log` 查看错误日志；
+2. API节点的IP地址和端口不能被正常访问，可以检查IP和防火墙设置是否正确。
