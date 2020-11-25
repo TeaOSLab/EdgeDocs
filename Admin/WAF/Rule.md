@@ -37,6 +37,6 @@ id%3D%3B+DELETE+FROM+abc
 
 经过解码后，上面的一段内容会被解码成：
 ~~~
-id=; DELETE FROM abc'
+id=; DELETE FROM abc
 ~~~
 所以就会和我们写的正则相匹配。
