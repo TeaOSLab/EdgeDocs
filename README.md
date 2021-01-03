@@ -23,4 +23,8 @@
   * 升级
 * 开发者指南
   * 源码编译
-* API    
+* API
+  * [API节点设置](API/Settings.md)
+  * [API调用概述](API/Summary.md)	
+  * [认证](API/Auth.md)
+  * [API列表](API/List.md)	
