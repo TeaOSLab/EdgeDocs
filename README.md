@@ -15,6 +15,7 @@
 * 边缘节点
   * [安装](Node/Install.md)
   * 升级
+  * [性能优化](Node/Performance.md)	
 * API节点
   * 安装
   * 升级
