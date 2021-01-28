@@ -17,11 +17,13 @@
   * 升级
   * [性能优化](Node/Performance.md)	
 * API节点
-  * 安装
+  * [安装](APINode/Install.md)
   * 升级
 * 用户平台  
   * [安装](User/Install.md)
   * 升级
+* 域名解析
+  * [自定义HTTP DNS](DNS/CustomHTTP.md)
 * 开发者指南
   * 源码编译
 * API
