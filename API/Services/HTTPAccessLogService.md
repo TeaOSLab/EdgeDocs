@@ -2,7 +2,7 @@
 
 ## 列出单页访问日志 - /HTTPAccessLogService/ListHTTPAccessLogs
 ### 请求参数
-~~~
+~~~protobuf
 {
 	string requestId = 1; // 上一页请求ID，可选
 	int64 serverId = 2; // 服务ID
@@ -15,3 +15,4 @@
 	int64 firewallRuleSetId = 9; // WAF规则集ID，可选
 }
 ~~~
+

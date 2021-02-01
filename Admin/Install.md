@@ -84,6 +84,13 @@ bin/edge-admin service
 ~~~
 rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 192.168.2.30:8001: connect: connection refused"
 ~~~
-可能的原因呢：
+可能的原因：
 1. API节点启动失败，请查看 `edge-admin/edge-api/logs/run.log` 查看错误日志；
 2. API节点的IP地址和端口不能被正常访问，可以检查IP和防火墙设置是否正确。
+
+### 无法登录系统，一直停留在登录界面
+登录正确的账号和密码，但是登录不了，一直停留在登录界面，类似于以下界面：
+![安装完成](Install7.png)
+
+原因：你在同一个域名或IP下曾经使用HTTPS协议登录过系统，所以系统自动屏蔽了HTTP协议访问
+解决方法：改成HTTPS协议登录，或者清除这个域名下的所有Cookie重新登录。

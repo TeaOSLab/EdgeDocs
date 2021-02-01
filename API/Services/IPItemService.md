@@ -2,7 +2,7 @@
 
 ## 创建IP - /IPItemService/CreateIPItem
 ### 请求参数
-~~~
+~~~protobuf
 {
 	int64 ipListId = 1; // IP列表ID
 	string ipFrom = 2; // 开始IP
@@ -14,7 +14,7 @@
 
 ## 修改IP - /IPItemService/UpdateIPItem
 ### 请求参数
-~~~
+~~~protobuf
 {
 	int64 ipItemId = 1;
 	string ipFrom = 2;
@@ -26,7 +26,7 @@
 
 ## 删除IP - /IPItemService/DeleteIPItem
 ### 请求参数
-~~~
+~~~protobuf
 {
 	int64 ipItemId = 1;
 }
@@ -34,7 +34,7 @@
 
 ## 计算IP数量 - /IPItemService/CountIPItemsWithListId
 ### 请求参数
-~~~
+~~~protobuf
 {
 	int64 ipListId = 1;
 }
@@ -42,10 +42,11 @@
 
 ## 列出单页的IP - /IPItemService/ListIPItemsWithListId
 ### 请求参数
-~~~
+~~~protobuf
 {
 	int64 ipListId = 1;
 	int64 offset = 2;
 	int64 size = 3;
 }
 ~~~
+

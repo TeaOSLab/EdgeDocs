@@ -12,6 +12,8 @@
     * 规则分组
     * 规则集
     * [规则](Admin/WAF/Rule.md)
+* 集群
+  * 创建集群
 * 边缘节点
   * [安装](Node/Install.md)
   * 升级
