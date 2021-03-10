@@ -12,8 +12,11 @@
     * 规则分组
     * 规则集
     * [规则](Admin/WAF/Rule.md)
+	* IP列表
 * 集群
   * 创建集群
+  * 设置
+	  * 事件动作
 * 边缘节点
   * [安装](Node/Install.md)
   * 升级
@@ -27,7 +30,7 @@
 * 域名解析
   * [自定义HTTP DNS](DNS/CustomHTTP.md)
 * 开发者指南
-  * 源码编译
+  * [源码编译](Developer/Build.md)
 * API
   * [API节点设置](API/Settings.md)
   * [API调用概述](API/Summary.md)	
